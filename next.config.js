@@ -31,7 +31,7 @@ const nextConfig = {
     VERSION: require('./package.json').version,
   },
 
-  trailingSlash: false,
+  trailingSlash: true,
 
   async redirects() {
     return [

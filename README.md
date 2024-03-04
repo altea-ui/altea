@@ -1,6 +1,5 @@
-<p align="center" height="370">
-<img align="center" height="370" src="https://user-images.githubusercontent.com/11304944/91128466-dfc96c00-e6da-11ea-8b03-a96e6b98667d.png">
-</p>
+> **NOTE**
+> As this is a work in progress fork, we are in the works of changing the name of the library to `altea` to avoid confusion with the original `@geist-ui/core` package. This is a community project and is not associated with Vercel.
 
 <p align="center">
 <img alt="Codecov" src="https://img.shields.io/codecov/c/github/geist-org/geist-ui?style=for-the-badge&labelColor=000000">
