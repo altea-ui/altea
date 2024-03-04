@@ -1,5 +1,5 @@
 {
-  "name": "@geist-ui/core",
+  "name": "altea",
   "version": "2.3.8",
   "main": "dist/index.js",
   "module": "esm/index.js",

@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "geist-ui": [
+      "altea": [
         "components/index.tsx"
       ]
     },
