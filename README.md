@@ -1,10 +1,10 @@
 > **NOTE**
-> As this is a work in progress fork, we are in the works of changing the name of the library to `altea` to avoid confusion with the original `@geist-ui/core` package. This is a community project and is not associated with Vercel.
+> As this is a work in progress fork, we are in the works of changing the name of the library to `altea` to avoid confusion with the original `altea` package. This is a community project and is not associated with Vercel.
 
 <p align="center">
 <img alt="Codecov" src="https://img.shields.io/codecov/c/github/geist-org/geist-ui?style=for-the-badge&labelColor=000000">
 <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/geist-org/geist-ui?style=for-the-badge&labelColor=000000">
-<img alt="npm (scoped)" src="https://img.shields.io/npm/v/@geist-ui/core?style=for-the-badge&labelColor=000000">
+<img alt="npm (scoped)" src="https://img.shields.io/npm/v/altea?style=for-the-badge&labelColor=000000">
 </p>
 
 > Modern and minimalist React UI library, originating from Vercel's design.
@@ -15,12 +15,12 @@
 
 ## Quick Start
 
-1. run `yarn add @geist-ui/core` or `npm i @geist-ui/core` install it.
+1. run `yarn add altea` or `npm i altea` install it.
 
 2. import into project:
 
 ```jsx
-import { GeistProvider, CssBaseline } from '@geist-ui/core'
+import { GeistProvider, CssBaseline } from 'altea'
 
 const Application = () => (
   <GeistProvider>
