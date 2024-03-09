@@ -7,7 +7,6 @@ import { addColorAlpha } from '../utils/color';
 
 export interface NavigationSubItemProps extends INavigationItem {
   onClick?: () => void;
-  clickable?: boolean;
 }
 
 const NavigationSubItem: React.FC<PropsWithChildren<NavigationSubItemProps>> = ({ url = '/', ...props }) => {
@@ -23,7 +22,6 @@ const NavigationSubItem: React.FC<PropsWithChildren<NavigationSubItemProps>> = (
   return (
     <>
       <Popover.Item padding="6px">
-        {props.clickable ? (
           <Link legacyBehavior passHref href={url || ''}>
             <a onClick={e => handleClick(e)} className="sub-item">
               <div className="icon-with-title">
@@ -33,15 +31,6 @@ const NavigationSubItem: React.FC<PropsWithChildren<NavigationSubItemProps>> = (
               {props.desc && <div className="description">{props.desc}</div>}
             </a>
           </Link>
-        ) : (
-          <div className="sub-item">
-            <div className="icon-with-title">
-              {props.icon && <span className="icon-holder">{props.icon}</span>}
-              <span>{props.title}</span>
-            </div>
-            {props.desc && <div className="description">{props.desc}</div>}
-          </div>
-        )}
       </Popover.Item>
       <style jsx>{`
         .description {
