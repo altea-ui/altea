@@ -10,7 +10,7 @@ import { pickChild } from '../utils/collections';
 import { ReactiveDomReact } from '../utils/layouts';
 import { useNavigation } from './navigation-context';
 import NavigationSubItem from './sub-item';
-import { ChevronUp } from '@geist-ui/icons';
+import ChevronUp  from './icon';
 
 export interface NavigationItemProps extends INavigationItem {
   exactMatch?: boolean;
