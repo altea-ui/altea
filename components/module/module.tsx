@@ -24,7 +24,7 @@ const ModuleComponent: React.FC<ModuleProps> = ({
   const { SCALES } = useScale()
   return (
     <>
-      <Card className={useClasses('module', className)}>
+      <Card style={{height: '100%', width: '100%', background: theme.palette.accents_1 + 'B2', display: 'flex', flexDirection: 'column'}} className={className}>
         {name && (
           <header>
             <div className={useClasses('module-name')}>{name}</div>
@@ -35,13 +35,6 @@ const ModuleComponent: React.FC<ModuleProps> = ({
       </Card>
       <style jsx>
         {`
-          .module {
-            height: 100%;
-            width: 100%;
-            background: ${theme.palette.accents_1 + 'B2'};
-            display: flex;
-            flex-direction: column;
-          }
           .module-name {
             border: 1px solid ${theme.palette.border};
             background-color: ${theme.palette.accents_1};
