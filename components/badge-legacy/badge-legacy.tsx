@@ -1,6 +1,6 @@
 import { withScale } from '../use-scale'
 import useTheme from '../use-theme'
-import type { ReactNode } from 'react'
+import React, { ReactNode } from 'react'
 
 interface Props {
   className?: string
