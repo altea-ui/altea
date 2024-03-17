@@ -1,6 +1,6 @@
 {
   "name": "altea",
-  "version": "2.3.11",
+  "version": "2.3.12",
   "main": "dist/index.js",
   "module": "esm/index.js",
   "types": "esm/index.d.ts",
@@ -27,18 +27,18 @@
   },
   "license": "MIT",
   "description": "Modern and minimalist React UI library.",
-  "homepage": "https://geist-ui.dev",
+  "homepage": "",
   "bugs": {
-    "url": "https://github.com/geist-org/geist-ui/issues/new/choose"
+    "url": "https://github.com/altea-ui/altea/issues/new/choose"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/geist-org/geist-ui"
+    "url": "https://github.com/altea-ui/altea"
   },
   "prettier": "@geist-ui/prettier-config",
   "keywords": [
-    "geist",
-    "geist ui",
+    "altea",
+    "altea ui",
     "components",
     "react components",
     "react ui"

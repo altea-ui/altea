@@ -96,9 +96,6 @@ export type {
   ModalActionProps,
 } from './modal'
 
-export { default as Navigation } from './navigation'
-export type { INavigationItem } from './navigation'
-
 export { default as Note } from './note'
 export type { NoteProps } from './note'
 
