@@ -10,6 +10,9 @@ export type { AvatarProps, AvatarGroupProps } from './avatar'
 export { default as Badge } from './badge'
 export type { BadgeProps, BadgeAnchorProps } from './badge'
 
+export { default as BadgeLegacy } from './badge-legacy'
+export type { BadgeLegacyProps } from './badge-legacy'
+
 export { default as Breadcrumbs } from './breadcrumbs'
 export type {
   BreadcrumbsProps,
