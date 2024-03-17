@@ -4,7 +4,7 @@ import useClasses from '../use-classes'
 import useScale, { withScale } from '../use-scale'
 import useTheme from '../use-theme'
 
-export interface Props extends HTMLAttributes<HTMLDivElement> {
+interface Props extends HTMLAttributes<HTMLDivElement> {
   children?: ReactNode
   className?: string
   footer?: ReactNode
