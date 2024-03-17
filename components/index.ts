@@ -96,6 +96,9 @@ export type {
   ModalActionProps,
 } from './modal'
 
+export { default as Module } from './module'
+export type { ModuleProps } from './module'
+
 export { default as Note } from './note'
 export type { NoteProps } from './note'
 

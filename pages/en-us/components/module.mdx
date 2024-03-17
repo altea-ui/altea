@@ -1,0 +1,26 @@
+import { Layout, Playground, Attributes } from 'lib/components'
+import { Module } from 'components'
+
+export const meta = {
+  title: 'Modal',
+  group: 'Feedback',
+}
+
+## Module
+
+The Module component offers a structured panel for data display, featuring an optional label and footer. It's ideal for clean, organized information presentation.
+
+<Playground
+  title="Basic"
+  desc="A basic module with a title and content."
+  scope={{ Module }}
+  code={`
+() => {
+  return (
+    <Module name="Title">
+        This module details something important.
+    </Module>
+  )
+}
+`}
+/>
