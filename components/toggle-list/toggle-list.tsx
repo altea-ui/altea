@@ -1,4 +1,3 @@
-'use client'
 import React, { PropsWithChildren, useEffect, useMemo, useState } from 'react'
 import useScale, { withScale } from '../use-scale'
 import useTheme from '../use-theme'
@@ -51,7 +50,7 @@ const ToggleListComponent: React.FC<PropsWithChildren<ToggleListProps>> = ({
       </div>
       <style jsx>{`
         .toggle-list {
-          border-radius: ${SCALES.r(1, theme.layout.radius)};
+          border-radius: ${theme.layout.radius};
           background: ${theme.palette.accents_1};
           width: ${SCALES.width(1, 'auto')};
           height: ${SCALES.height(1, 'auto')};

@@ -1,4 +1,3 @@
-'use client'
 import React, { PropsWithChildren, createRef, useEffect, useMemo, useState } from 'react'
 import useClasses from '../use-classes'
 import useScale, { withScale } from '../use-scale'

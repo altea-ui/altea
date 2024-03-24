@@ -29,6 +29,7 @@
     "isolatedModules": true,
     "typeRoots": [
       "node_modules/@types",
+      "../node_modules/@testing-library",
       "./typings"
     ],
     "incremental": true,
