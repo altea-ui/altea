@@ -171,6 +171,8 @@ export type { GeistUIThemes, GeistUserTheme } from './themes'
 export { default as Toggle } from './toggle'
 export type { ToggleProps } from './toggle'
 
+export { default as ToggleList } from './toggle-list'; //TODO: FOLLOW OTHER COMPONENTS
+
 export { default as Tooltip } from './tooltip'
 export type { TooltipProps } from './tooltip'
 
